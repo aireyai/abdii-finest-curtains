@@ -1,0 +1,58 @@
+/* Abdii Finest Curtains — design tokens */
+:root {
+  /* Palette — derived from logo */
+  --color-primary:       #5B4AE8;   /* violet */
+  --color-primary-dark:  #1F1A8A;   /* deep indigo */
+  --color-primary-light: #9A8EFF;   /* lifted violet */
+  --color-accent:        #C9A227;   /* warm brass — luxe accent */
+  --color-bg:            #F8EDE6;   /* cream from logo */
+  --color-surface:       #FFFFFF;   /* elevated surface */
+  --color-text:          #1A1330;   /* near-black indigo */
+  --color-muted:         #6B6380;   /* body secondary */
+
+  /* Dark variants (Direction B hero) */
+  --color-bg-dark:       #0E0A2E;   /* deep indigo-black */
+  --color-surface-dark:  #1A1147;   /* elevated on dark */
+  --color-text-on-dark:  #F8EDE6;   /* cream text on dark */
+
+  /* Type scale */
+  --fs-h1: clamp(2.75rem, 6vw, 5.25rem);
+  --fs-h2: clamp(2rem, 4vw, 3.25rem);
+  --fs-h3: clamp(1.5rem, 2.5vw, 2rem);
+  --fs-h4: 1.375rem;
+  --fs-h5: 1.125rem;
+  --fs-body: 1.0625rem;
+  --fs-small: 0.875rem;
+
+  /* Font families */
+  --ff-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --ff-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Spacing — 4px grid */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+  --space-10: 5rem;
+  --space-11: 6rem;
+  --space-12: 8rem;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+
+  /* Shadows — violet-tinted, layered */
+  --shadow-sm: 0 1px 2px rgba(31, 26, 138, 0.06),
+               0 1px 3px rgba(31, 26, 138, 0.04);
+  --shadow-md: 0 4px 12px rgba(31, 26, 138, 0.08),
+               0 2px 6px rgba(31, 26, 138, 0.06);
+  --shadow-lg: 0 20px 40px rgba(31, 26, 138, 0.12),
+               0 8px 16px rgba(31, 26, 138, 0.08);
+}
