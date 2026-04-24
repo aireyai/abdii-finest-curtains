@@ -1,0 +1,18 @@
+node_modules/
+temporary screenshots/
+screenshot.mjs
+screenshot_anchor.mjs
+screenshot_mobile.mjs
+screenshot_viewport.mjs
+shot_*.mjs
+debug_dom.mjs
+serve.mjs
+package.json
+package-lock.json
+hero_a.html
+hero_b.html
+client_intake.md
+brand_assets/
+tokens.css
+.DS_Store
+*.log
