@@ -7,6 +7,8 @@ screenshot_viewport.mjs
 shot_*.mjs
 debug_dom.mjs
 serve.mjs
+render_og.mjs
+og_template.html
 package.json
 package-lock.json
 hero_a.html
