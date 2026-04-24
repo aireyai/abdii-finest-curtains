@@ -308,7 +308,6 @@
   </video>
   <div class="intro__veil"></div>
   <div class="intro__grain"></div>
-  <button class="intro__skip" id="introSkip" type="button" aria-label="Skip intro">Skip</button>
   <div class="intro__center">
     <div class="intro__logo"><img src="images/logo.jpg" alt="Abdii Finest Curtains" /></div>
     <div class="intro__title">Curtains, measured and hung — <em>on us.</em></div>
@@ -689,7 +688,6 @@
   (function(){
     const intro = document.getElementById('intro');
     const video = document.getElementById('introVideo');
-    const skip  = document.getElementById('introSkip');
     if (!intro) return;
 
     document.documentElement.classList.add('intro-active');
@@ -707,7 +705,7 @@
       video.addEventListener('ended', () => { clearTimeout(fallback); dismiss(); });
       video.addEventListener('error', () => { clearTimeout(fallback); dismiss(); });
     }
-    skip.addEventListener('click', () => { clearTimeout(fallback); dismiss(); });
+    intro.addEventListener('click', () => { clearTimeout(fallback); dismiss(); });
   })();
 </script>
 
