@@ -684,17 +684,11 @@
     const skip  = document.getElementById('introSkip');
     if (!intro) return;
 
-    // skip on return visits within the session
-    if (sessionStorage.getItem('introSeen') === '1') {
-      intro.remove();
-      return;
-    }
     document.documentElement.classList.add('intro-active');
 
     const dismiss = () => {
       intro.classList.add('is-out');
       document.documentElement.classList.remove('intro-active');
-      sessionStorage.setItem('introSeen','1');
       setTimeout(()=>intro.remove(), 950);
     };
 
